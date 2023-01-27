@@ -1,0 +1,82 @@
+// -----------------------------------------------------------------------------
+// Generate List of additional spacing utility classes based on $g-spacers list.
+// eg. .p-100, .mt-200, .me-100 etc.
+// -----------------------------------------------------------------------------
+
+@each $name, $value in $g-spacers {
+  // -----------------------------------------------------------------------------
+  // Paddings
+  // -----------------------------------------------------------------------------
+
+  .p-#{$name} {
+    padding: $value !important;
+  }
+
+  .py-#{$name} {
+    padding-top: $value !important;
+    padding-bottom: $value !important;
+  }
+
+  .px-#{$name} {
+    padding-right: $value !important;
+    padding-left: $value !important;
+  }
+
+  .pt-#{$name} {
+    padding-top: $value !important;
+  }
+
+  .pb-#{$name} {
+    padding-bottom: $value !important;
+  }
+
+  .ps-#{$name} {
+    padding-left: $value !important;
+  }
+
+  .pe-#{$name} {
+    padding-right: $value !important;
+  }
+
+  // -----------------------------------------------------------------------------
+  // Margins
+  // -----------------------------------------------------------------------------
+
+  .m-#{$name} {
+    margin: $value !important;
+  }
+
+  .my-#{$name} {
+    margin-top: $value !important;
+    margin-bottom: $value !important;
+  }
+
+  .mx-#{$name} {
+    margin-right: $value !important;
+    margin-left: $value !important;
+  }
+
+  .mt-#{$name} {
+    margin-top: $value !important;
+  }
+
+  .mb-#{$name} {
+    margin-bottom: $value !important;
+  }
+
+  .ms-#{$name} {
+    margin-left: $value !important;
+  }
+
+  .me-#{$name} {
+    margin-right: $value !important;
+  }
+
+  // -----------------------------------------------------------------------------
+  // Gaps
+  // -----------------------------------------------------------------------------
+
+  .gap-#{$name} {
+    gap: $value !important;
+  }
+}

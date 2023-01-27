@@ -1,0 +1,17 @@
+/* stylelint-disable declaration-block-no-redundant-longhand-properties, scss/at-rule-conditional-no-parentheses */
+
+// -----------------------------------------------------------------------------
+// A11Y - Focus visible
+// -----------------------------------------------------------------------------
+
+@mixin g-accessibility-focus-visible($inset: false) {
+  outline-width: var(--g-focus-outline-width);
+  outline-style: var(--g-focus-outline-style);
+  outline-color: var(--g-focus-outline-color);
+
+  @if ($inset) {
+    outline-offset: -var(--g-focus-outline-width);
+  } @else {
+    outline-offset: var(--g-focus-outline-width);
+  }
+}

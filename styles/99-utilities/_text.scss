@@ -1,0 +1,65 @@
+// -----------------------------------------------------------------------------
+// Generate text utility classes .h1, .h2, body, label, text-100
+// -----------------------------------------------------------------------------
+
+@each $textItem, $textStyles in $g-text-styles {
+  .#{$textItem} {
+    @each $textType, $textProperties in $textStyles {
+      #{$textType}: $textProperties;
+    }
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Generate font size utility classes
+// -----------------------------------------------------------------------------
+
+$g-font-sizes: (
+  100: var(--g-fs-100),
+  200: var(--g-fs-200),
+  300: var(--g-fs-300),
+  400: var(--g-fs-400),
+  500: var(--g-fs-500),
+  600: var(--g-fs-600),
+  700: var(--g-fs-700),
+  800: var(--g-fs-800),
+  900: var(--g-fs-900),
+  1000: var(--g-fs-1000),
+);
+
+@each $name, $value in $g-font-sizes {
+  .fs-#{$name} {
+    font-size: $value !important;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Font weights
+// -----------------------------------------------------------------------------
+
+.fw-regular {
+  font-weight: var(--g-fw-regular);
+}
+
+.fw-medium {
+  font-weight: var(--g-fw-medium);
+}
+
+.fw-bold {
+  font-weight: var(--g-fw-bold);
+}
+
+// Text truncate
+.text-truncate {
+  @include g-text-truncate;
+}
+
+// Line clamp
+
+.line-clamp-2 {
+  @include g-line-clamp(2);
+}
+
+.line-clamp-3 {
+  @include g-line-clamp(3);
+}

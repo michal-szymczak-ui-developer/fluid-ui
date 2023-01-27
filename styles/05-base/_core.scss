@@ -1,0 +1,12 @@
+// -----------------------------------------------------------------------------
+// Base CSS
+// -----------------------------------------------------------------------------
+
+html {
+  color: var(--g-text-color);
+  font-size: var(--g-fs);
+  font-family: var(--g-font-family-primary);
+  background-color: var(--g-bg-body-color);
+  transition: color var(--g-transition-duration) var(--g-transition-type),
+    background-color var(--g-transition-duration) var(--g-transition-type);
+}

@@ -1,0 +1,11 @@
+/* stylelint-disable scss/at-rule-conditional-no-parentheses */
+
+@mixin g-text-style($textItem, $textStyles: $g-text-styles) {
+  @each $textType, $textProperties in $textStyles {
+    @if ($textType == $textItem) {
+      @each $textProperty, $textStyle in $textProperties {
+        #{$textProperty}: $textStyle;
+      }
+    }
+  }
+}

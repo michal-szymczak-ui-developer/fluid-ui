@@ -1,0 +1,13 @@
+// -----------------------------------------------------------------------------
+// Rounded
+// -----------------------------------------------------------------------------
+
+.rounded {
+  border-radius: var(--g-rounded);
+}
+
+@each $name, $value in $g-spacers {
+  .rounded-#{$name} {
+    border-radius: $value !important;
+  }
+}

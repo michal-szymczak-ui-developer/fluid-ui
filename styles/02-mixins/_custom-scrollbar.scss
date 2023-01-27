@@ -1,0 +1,25 @@
+@mixin g-custom-scrollbar(
+  $size: #{var(--g-scrollbar-size)},
+  $border-radius: #{var(--g-scrollbar-radius)},
+  $foreground-color: #{var(--g-scrollbar-color)},
+  $background-color: #{var(--g-scrollbar-bg)}
+) {
+  // For Firefox
+  scrollbar-width: thin;
+  scrollbar-color: $foreground-color $background-color;
+
+  // For Google Chrome
+  &::-webkit-scrollbar {
+    width: $size;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $foreground-color;
+    border-radius: $border-radius;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $background-color;
+    border-radius: $border-radius;
+  }
+}

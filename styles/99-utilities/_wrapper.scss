@@ -1,0 +1,10 @@
+// -----------------------------------------------------------------------------
+// Wrapper
+// -----------------------------------------------------------------------------
+
+.wrapper {
+  position: relative;
+  width: clamp(16rem, var(--g-wrapper-max-width, 85rem), 85rem);
+  margin-inline: auto;
+  padding-inline: var(--g-spacer-100);
+}

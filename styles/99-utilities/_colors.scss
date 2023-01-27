@@ -1,0 +1,18 @@
+// -----------------------------------------------------------------------------
+// Generate List of additional color utility classes based on $g-color list.
+// eg. .text-primary, .bg-primary, border-primary, etc.
+// -----------------------------------------------------------------------------
+
+@each $name, $value in $g-colors {
+  .text-#{$name} {
+    color: $value !important;
+  }
+
+  .bg-#{$name} {
+    background-color: $value !important;
+  }
+
+  .border-#{$name} {
+    border-color: $value !important;
+  }
+}

@@ -1,0 +1,11 @@
+// -----------------------------------------------------------------------------
+// Card
+// -----------------------------------------------------------------------------
+
+.card {
+  padding: var(--g-gutter);
+  background-color: var(--g-bg-color);
+  border: var(--g-border);
+  border-radius: var(--g-border-radius);
+  box-shadow: var(--g-shadow);
+}
