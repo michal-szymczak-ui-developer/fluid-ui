@@ -1,3 +1,5 @@
+![Logo FLUID UI](http://fluid-ui.michalszymczak.com/logo-fluid-ui.svg)
+
 # Fluid UI - Modern CSS Starter
 
 Fluid CSS Starter is CSS starter. The directories structure based on the Inverted Triangle CSS methodology. It uses CSS Variables, fluid spacers and typography.
