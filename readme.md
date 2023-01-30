@@ -1,12 +1,15 @@
-# Fluid CSS Starter
+# Fluid UI - Modern CSS Starter
 
-Fluid CSS Starter is a modification of the Inverted Triangle CSS methodology. It uses CSS variables, fluid typography and spacings. Prepared to work under the CUBE CSS methodology, no media query breakpoints, contains some basic utility classes. Possible to work with/without external framework.
+Fluid CSS Starter is CSS starter. The directories structure based on the Inverted Triangle CSS methodology. It uses CSS Variables, fluid spacers and typography.
 
 # Quick Demo Preview
 
-Run index.html in your browser.
+- [DEMO](http://fluid-ui.michalszymczak.com/)
+- [Documentation](http://fluid-ui.michalszymczak.com/docs/)
 
 ## General directories structure
+
+![Structure](http://fluid-ui.michalszymczak.com/fluid-ui-specificity.png)
 
 ```
 ./main.scss
@@ -21,7 +24,7 @@ Run index.html in your browser.
 ./99-utilities/
 ```
 
-Every subdirectory contains **\_index.scss** which imports all files (recommended alphabetical order) from specific subdirectory.
+Every subdirectory contains **\_index.scss** which imports all files from specific subdirectory.
 The main scss **styles/main.scss** file merges all subdirectories.
 
 ## Tools
@@ -52,7 +55,7 @@ If you App/Webpage uses external frameworks (eg. Bootstrap, PrimeNG etc) this is
 
 `./05-base/`
 
-Base styling eg. body, typography, icon font, accessibility rules. If you dont use external framework this the place to include external CSS reset.
+Base styling eg. body, typography, accessibility rules. If you dont use external framework this the place to include external CSS reset.
 
 ## Layout
 
@@ -71,6 +74,12 @@ Place to add components styling. From buttons, form controls, modals, card to mo
 `./08-vendor/`
 
 Set vendors variables under the **style/03-settings** directory. But if we cannot style vendor plugin with variables add here additional styling by overwriting or extensioning vendor's CSS.
+
+## Views
+
+`./08-views/`
+
+CSS for specific views like Promotion, Contact and so on.
 
 ## Utilities
 
