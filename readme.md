@@ -1,4 +1,4 @@
-![Logo FLUID UI](http://fluid-ui.michalszymczak.com/logo-fluid-ui.svg)
+![Logo FLUID UI](http://fluid-ui.michalszymczak.com/logo-fluid-ui.svg=250x)
 
 # Fluid UI - Modern CSS Starter
 
