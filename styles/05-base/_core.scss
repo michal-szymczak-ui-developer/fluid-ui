@@ -17,4 +17,7 @@ html {
   }
 }
 
+a:not([class]) {
+  text-decoration-thickness: max(0.08em, 1px);
+  text-underline-offset: 0.25em;
 }
