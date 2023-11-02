@@ -1,4 +1,4 @@
-:where(a, button, input, textarea, summary) {
+:is(a, button, input, textarea, summary) {
   &:focus,
   &:focus-visible {
     outline: var(--g-focus-outline-size) var(--g-focus-outline-style) var(--g-focus-outline-color);
