@@ -152,7 +152,8 @@ $g-text-styles: (
     text-wrap: balance,
   ),
   h5: (
-    font-size: var(--g-fs-600),
+    font-size: var(--g-fs-500),
+    font-weight: var(--g-fw-regular),
     line-height: 1,
     max-width: 60ch,
     text-wrap: balance,

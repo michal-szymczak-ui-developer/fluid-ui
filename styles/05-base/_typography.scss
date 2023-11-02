@@ -1,17 +1,26 @@
-h1 {
+h1,
+.h1 {
   @include g-text-style("h1");
 }
 
-h2 {
+h2,
+.h2 {
   @include g-text-style("h2");
 }
 
-h3 {
+h3,
+.h3 {
   @include g-text-style("h3");
 }
 
-h4 {
+h4,
+.h4 {
   @include g-text-style("h4");
+}
+
+h5,
+.h5 {
+  @include g-text-style("h5");
 }
 
 p {
