@@ -54,6 +54,11 @@ $g-font-sizes: (
   @include g-text-truncate;
 }
 
+// Text truncate
+.text-balance {
+  text-wrap: balance;
+}
+
 // Line clamp
 
 .line-clamp-2 {

@@ -146,6 +146,7 @@ $g-text-styles: (
     font-weight: var(--g-fw-bold),
     line-height: 1.15,
     max-width: 60ch,
+    text-wrap: balance,
   ),
   h2: (
     font-family: var(--g-font-family-secondary),
@@ -153,23 +154,27 @@ $g-text-styles: (
     font-weight: var(--g-fw-bold),
     line-height: 1.25,
     max-width: 60ch,
+    text-wrap: balance,
   ),
   h3: (
     font-size: var(--g-fs-800),
     font-weight: var(--g-fw-bold),
     line-height: 1,
     max-width: 60ch,
+    text-wrap: balance,
   ),
   h4: (
     font-size: var(--g-fs-700),
     font-weight: var(--g-fw-bold),
     line-height: 1,
     max-width: 60ch,
+    text-wrap: balance,
   ),
   h5: (
     font-size: var(--g-fs-600),
     line-height: 1,
     max-width: 60ch,
+    text-wrap: balance,
   ),
   text-button: (
     font-size: var(--g-fs-400),
