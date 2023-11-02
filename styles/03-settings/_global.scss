@@ -105,10 +105,11 @@
   --g-transition: var(--g-transition-duration) var(--g-transition-type);
 
   // Accessibility
-  --g-focus-outline-width: 1px;
+  --g-focus-outline-size: max(1px, 0.08em);
   --g-focus-outline-style: solid;
-  --g-focus-outline-color: var(--g-text-color);
-  --g-focus-outline: var(--g-focus-outline-width) var(--g-focus-outline-style) var(--g-focus-outline-color);
+  /* stylelint-disable-next-line value-keyword-case */
+  --g-focus-outline-color: currentColor;
+  --g-focus-outline: var(--g-focus-outline-size) var(--g-focus-outline-style) var(--g-focus-outline-color);
 }
 
 // -----------------------------------------------------------------------------

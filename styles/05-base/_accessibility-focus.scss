@@ -1,0 +1,11 @@
+:where(a, button, input, textarea, summary) {
+  &:focus,
+  &:focus-visible {
+    outline: var(--g-focus-outline-size) var(--g-focus-outline-style) var(--g-focus-outline-color);
+    outline-offset: var(--outline-offset, var(--g-focus-outline-size));
+  }
+
+  &:focus:not(:focus-visible) {
+    --g-focus-outline-color: transparent;
+  }
+}
