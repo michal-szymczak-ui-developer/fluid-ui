@@ -157,19 +157,6 @@ $g-text-styles: (
     max-width: 60ch,
     text-wrap: balance,
   ),
-  text-button: (
-    font-size: var(--g-fs-400),
-    font-weight: var(--g-fw-bold),
-  ),
-  text-input: (
-    font-size: var(--g-fs-400),
-    font-weight: var(--g-fw-regular),
-  ),
-  text-label: (
-    font-size: var(--g-fs-300),
-    letter-spacing: 1px,
-    text-transform: uppercase,
-  ),
 );
 
 // -----------------------------------------------------------------------------
