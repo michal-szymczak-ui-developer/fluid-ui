@@ -47,7 +47,7 @@
   --g-color-primary-900: hsl(var(--g-color-primary-h) var(--g-color-primary-s) 25%);
   --g-color-primary-1000: hsl(var(--g-color-primary-h) var(--g-color-primary-s) 20%);
   --g-color-primary: var(--g-color-primary-400);
-  --g-color-info: var(--g-color-blue-300);
+  --g-color-info: var(--g-color-primary-300);
   --g-color-success: var(--g-color-green);
   --g-color-warning: var(--g-color-orange);
   --g-color-danger: var(--g-color-red);
@@ -268,11 +268,11 @@ li {
   line-height: 1.4;
 }
 
-:where(a, button, input, textarea, summary):focus, :where(a, button, input, textarea, summary):focus-visible {
+:is(a, button, input, textarea, summary):focus, :is(a, button, input, textarea, summary):focus-visible {
   outline: var(--g-focus-outline-size) var(--g-focus-outline-style) var(--g-focus-outline-color);
   outline-offset: var(--outline-offset, var(--g-focus-outline-size));
 }
-:where(a, button, input, textarea, summary):focus:not(:focus-visible) {
+:is(a, button, input, textarea, summary):focus:not(:focus-visible) {
   --g-focus-outline-color: transparent;
 }
 
@@ -881,7 +881,7 @@ li {
   margin-right: var(--g-spacer-50) !important;
 }
 
-.gap-50 {
+.g-50 {
   gap: var(--g-spacer-50) !important;
 }
 
@@ -945,7 +945,7 @@ li {
   margin-right: var(--g-spacer-100) !important;
 }
 
-.gap-100 {
+.g-100 {
   gap: var(--g-spacer-100) !important;
 }
 
@@ -1009,7 +1009,7 @@ li {
   margin-right: var(--g-spacer-200) !important;
 }
 
-.gap-200 {
+.g-200 {
   gap: var(--g-spacer-200) !important;
 }
 
@@ -1073,7 +1073,7 @@ li {
   margin-right: var(--g-spacer-300) !important;
 }
 
-.gap-300 {
+.g-300 {
   gap: var(--g-spacer-300) !important;
 }
 
@@ -1137,7 +1137,7 @@ li {
   margin-right: var(--g-spacer-400) !important;
 }
 
-.gap-400 {
+.g-400 {
   gap: var(--g-spacer-400) !important;
 }
 
@@ -1201,7 +1201,7 @@ li {
   margin-right: var(--g-spacer-500) !important;
 }
 
-.gap-500 {
+.g-500 {
   gap: var(--g-spacer-500) !important;
 }
 
@@ -1265,7 +1265,7 @@ li {
   margin-right: var(--g-spacer-600) !important;
 }
 
-.gap-600 {
+.g-600 {
   gap: var(--g-spacer-600) !important;
 }
 
@@ -1329,7 +1329,7 @@ li {
   margin-right: var(--g-spacer-700) !important;
 }
 
-.gap-700 {
+.g-700 {
   gap: var(--g-spacer-700) !important;
 }
 
@@ -1393,7 +1393,7 @@ li {
   margin-right: var(--g-spacer-800) !important;
 }
 
-.gap-800 {
+.g-800 {
   gap: var(--g-spacer-800) !important;
 }
 
@@ -1457,7 +1457,7 @@ li {
   margin-right: var(--g-spacer-900) !important;
 }
 
-.gap-900 {
+.g-900 {
   gap: var(--g-spacer-900) !important;
 }
 
@@ -1521,7 +1521,7 @@ li {
   margin-right: var(--g-spacer-1000) !important;
 }
 
-.gap-1000 {
+.g-1000 {
   gap: var(--g-spacer-1000) !important;
 }
 
@@ -1585,7 +1585,7 @@ li {
   margin-right: var(--g-gutter) !important;
 }
 
-.gap-gutter {
+.g-gutter {
   gap: var(--g-gutter) !important;
 }
 
