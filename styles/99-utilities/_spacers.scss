@@ -13,13 +13,11 @@
   }
 
   .py-#{$name} {
-    padding-top: $value !important;
-    padding-bottom: $value !important;
+    padding-block: $value !important;
   }
 
   .px-#{$name} {
-    padding-right: $value !important;
-    padding-left: $value !important;
+    padding-inline: $value !important;
   }
 
   .pt-#{$name} {
@@ -47,13 +45,11 @@
   }
 
   .my-#{$name} {
-    margin-top: $value !important;
-    margin-bottom: $value !important;
+    margin-block: $value !important;
   }
 
   .mx-#{$name} {
-    margin-right: $value !important;
-    margin-left: $value !important;
+    margin-inline: $value !important;
   }
 
   .mt-#{$name} {
@@ -78,5 +74,13 @@
 
   .g-#{$name} {
     gap: $value !important;
+  }
+
+  .gcol-#{$name} {
+    column-gap: $value !important;
+  }
+
+  .grow-#{$name} {
+    row-gap: $value !important;
   }
 }

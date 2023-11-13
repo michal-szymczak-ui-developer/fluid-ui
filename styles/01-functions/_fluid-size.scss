@@ -1,6 +1,6 @@
 @use "sass:math";
 
-@function g-fluid($min-size, $max-size, $min-breakpoint: $g-default-min-bp, $max-breakpoint: $g-default-max-bp, $unit: vw) {
+@function g-fluid($min-size, $max-size, $min-breakpoint: $g-fluid-min-resolution, $max-breakpoint: $g-fluid-max-resolution, $unit: vw) {
   $slope: math.div($max-size - $min-size, $max-breakpoint - $min-breakpoint);
   $slope-to-unit: g-round($slope * 100, 2);
   $intercept-rem: g-round(g-px-to-rem($min-size - $slope * $min-breakpoint), 2);
