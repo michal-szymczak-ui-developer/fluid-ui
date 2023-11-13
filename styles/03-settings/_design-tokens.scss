@@ -34,7 +34,7 @@
   // Colors
   // -----------------------------------------------------------------------------
 
-  // Blue
+  // Blue used for primary color
   --g-color-blue-h: 200deg;
   --g-color-blue-s: 80%;
   --g-color-blue-l: 50%;
@@ -46,18 +46,4 @@
   --g-color-green: #390;
   --g-color-orange: #ec942c;
   --g-color-red: #f02c2c;
-
-  // Grays
-  --g-gray-h: var(--g-color-primary-h);
-  --g-gray-s: 10%;
-  --g-gray-100: hsl(var(--g-gray-h) var(--g-gray-s) 98%);
-  --g-gray-200: hsl(var(--g-gray-h) var(--g-gray-s) 95%);
-  --g-gray-300: hsl(var(--g-gray-h) var(--g-gray-s) 85%);
-  --g-gray-400: hsl(var(--g-gray-h) var(--g-gray-s) 70%);
-  --g-gray-500: hsl(var(--g-gray-h) var(--g-gray-s) 60%);
-  --g-gray-600: hsl(var(--g-gray-h) var(--g-gray-s) 50%);
-  --g-gray-700: hsl(var(--g-gray-h) var(--g-gray-s) 40%);
-  --g-gray-800: hsl(var(--g-gray-h) var(--g-gray-s) 30%);
-  --g-gray-900: hsl(var(--g-gray-h) var(--g-gray-s) 15%);
-  --g-gray-1000: hsl(var(--g-gray-h) var(--g-gray-s) 5%);
 }
