@@ -48,6 +48,9 @@
   // Wrapper max width
   --g-wrapper-max-width: 90vw;
 
+  // Flow
+  --g-flow-spacer: var(--g-gutter);
+
   // Base colors
   --g-bg-body-color: var(--g-gray-100);
   --g-bg-color: var(--g-color-white);
