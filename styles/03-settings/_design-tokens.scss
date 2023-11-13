@@ -20,13 +20,13 @@
   // -----------------------------------------------------------------------------
 
   --g-fs-100: 0.625rem; // 10px
-  --g-fs-200: #{g-fluid(10px, 12px)};
-  --g-fs-300: #{g-fluid(12px, 14px)};
+  --g-fs-200: #{g-fluid(11px, 12px)};
+  --g-fs-300: #{g-fluid(13px, 14px)};
   --g-fs-400: #{g-fluid(14px, 16px)};
   --g-fs-500: #{g-fluid(16px, 18px)};
-  --g-fs-600: #{g-fluid(16px, 22px)};
-  --g-fs-700: #{g-fluid(18px, 24px)};
-  --g-fs-800: #{g-fluid(20px, 28px)};
+  --g-fs-600: #{g-fluid(18px, 22px)};
+  --g-fs-700: #{g-fluid(20px, 24px)};
+  --g-fs-800: #{g-fluid(22px, 28px)};
   --g-fs-900: #{g-fluid(24px, 38px)};
   --g-fs-1000: #{g-fluid(32px, 58px)};
 
@@ -34,7 +34,7 @@
   // Colors
   // -----------------------------------------------------------------------------
 
-  // Blue
+  // Blue used for primary color
   --g-color-blue-h: 200deg;
   --g-color-blue-s: 80%;
   --g-color-blue-l: 50%;
@@ -42,7 +42,8 @@
   // Base
   --g-color-white: #fff;
   --g-color-black: #000;
-  --g-color-green: green;
-  --g-color-orange: orange;
-  --g-color-red: red;
+  --g-color-blue: #40a6ce;
+  --g-color-green: #390;
+  --g-color-orange: #ec942c;
+  --g-color-red: #f02c2c;
 }
