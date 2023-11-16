@@ -1,18 +1,18 @@
 .prose {
   p,
   ul {
-    --g-gutter: var(--g-spacer-300);
+    --g-flow-spacer: var(--g-spacer-300);
   }
 
   h1 {
-    --g-gutter: var(--g-spacer-700);
+    --g-flow-spacer: var(--g-spacer-700);
   }
 
   h2 {
-    --g-gutter: var(--g-spacer-600);
+    --g-flow-spacer: var(--g-spacer-600);
   }
 
-  h3 {
-    --g-gutter: var(--g-spacer-500);
+  h3,h4,h5 {
+    --g-flow-spacer: var(--g-spacer-500);
   }
 }

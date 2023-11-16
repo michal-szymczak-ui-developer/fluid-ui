@@ -2,7 +2,7 @@
   "name": "fluid-ui",
   "version": "1.0.0",
   "scripts": {
-    "build:styles": "npx sass --no-source-map styles/main.scss styles/main.min.css --style compressed",
+    "build:styles": "npx sass styles/main.scss styles/main.css --style compressed",
     "lint:styles": "npx stylelint styles/**/*.scss",
     "test": "npm run lint:styles && npm run build:test"
   },
