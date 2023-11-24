@@ -83,11 +83,12 @@
   --g-rounded: var(--g-spacer-100);
 
   // Shadows
-  --g-shadow-100: 0 0 var(--g-spacer-100) var(--g-gray-200);
-  --g-shadow-200: 0 0 var(--g-spacer-200) var(--g-gray-200);
-  --g-shadow-300: 0 0 var(--g-spacer-300) var(--g-gray-300);
-  --g-shadow-400: 0 0 var(--g-spacer-400) var(--g-gray-400);
-  --g-shadow-500: 0 0 var(--g-spacer-500) var(--g-gray-500);
+  --g-shadow-color: var(--g-gray-200);
+  --g-shadow-100: 0 0 var(--g-spacer-100) var(--g-shadow-color);
+  --g-shadow-200: 0 0 var(--g-spacer-200) var(--g-shadow-color);
+  --g-shadow-300: 0 0 var(--g-spacer-300) var(--g-shadow-color);
+  --g-shadow-400: 0 0 var(--g-spacer-400) var(--g-shadow-color);
+  --g-shadow-500: 0 0 var(--g-spacer-500) var(--g-shadow-color);
   --g-shadow: var(--g-shadow-200);
 
   // Transition
