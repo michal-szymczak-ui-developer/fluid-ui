@@ -2,6 +2,5 @@
   "printWidth": 140,
   "tabWidth": 2,
   "trailingComma": "all",
-  "endOfLine": "auto",
-  "plugins": ["prettier-plugin-rational-order"]
+  "endOfLine": "auto"
 }
