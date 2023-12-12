@@ -52,7 +52,8 @@
 
   // Base spacers
   --g-gutter: var(--g-spacer-500);
-
+  --g-flow-spacer: var(--g-gutter)
+  
   // Wrapper max width
   --g-wrapper-max-width: 90vw;
 
