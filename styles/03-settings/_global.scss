@@ -29,9 +29,9 @@
   --g-gray-1000: hsl(var(--g-gray-h) var(--g-gray-s) 5%);
 
   // Font families
-  /* stylelint-disable  value-keyword-case */
-  --g-font-family-primary: Inter, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol";
+  /* stylelint-disable value-keyword-case, value-list-comma-newline-after, declaration-colon-newline-after */
+
+  --g-font-family-primary: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --g-font-family-secondary: var(--g-font-family-primary);
   /* stylelint-enable */
 
@@ -44,8 +44,7 @@
 
   // Base spacers
   --g-gutter: var(--g-spacer-500);
-  --g-flow-spacer: var(--g-gutter)
-  
+
   // Wrapper max width
   --g-wrapper-max-width: 90vw;
 

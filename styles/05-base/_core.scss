@@ -7,10 +7,8 @@ html {
   font-size: var(--g-fs);
   font-family: var(--g-font-family-primary);
   background-color: var(--g-bg-body-color);
-  transition:
-    color var(--g-transition-duration) var(--g-transition-type),
-    background-color var(--g-transition-duration) var(--g-transition-type);
-  scrollbar-gutter: stable;
+  transition: all var(--g-transition-duration) var(--g-transition-type);
+  scrollbar-gutter: auto;
 
   @media (prefers-reduced-motion: no-preference) {
     scroll-behavior: smooth;

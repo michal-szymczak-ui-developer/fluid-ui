@@ -8,6 +8,7 @@
     "media-feature-name-no-vendor-prefix": true,
     "at-rule-no-vendor-prefix": true,
     "max-nesting-depth": 3,
+    "max-line-length": 160,
     "selector-no-qualifying-type": [
       true,
       {
