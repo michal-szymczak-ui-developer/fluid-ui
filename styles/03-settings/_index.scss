@@ -1,7 +1,7 @@
 // -------------------------------------------------------------------------------------------------------------------------------
 // Global Settings - design tokens, semantic variables, config switches - declarations of colors, fonts, sizes, icons etc.
 // -------------------------------------------------------------------------------------------------------------------------------
-@import "fluid-breakpoints"; // Fluid breakpoints - min and max viewport width values
+@import "fluid-min-max-resolution"; // Fluid  min and max viewport width values
 @import "design-tokens"; // Colors, Spacers, Font sizes, weights, Map with predefined text styles
 @import "global"; // Global settings for body, inputs, borders, transitions, shadows, COMPONENTS etc.
 @import "dark-theme"; // Dark theme variables

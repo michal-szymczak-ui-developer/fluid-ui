@@ -2,12 +2,11 @@
   "name": "fluid-ui",
   "version": "1.0.0",
   "scripts": {
-    "build:test": "npx sass styles/main.scss styles/main-test.css --embed-source-map",
+    "build:styles": "npx sass styles/main.scss styles/main.css --style compressed",
     "lint:styles": "npx stylelint styles/**/*.scss",
     "test": "npm run lint:styles && npm run build:test"
   },
   "devDependencies": {
-    "prettier-plugin-rational-order": "^1.0.3",
     "sass": "^1.49.0",
     "stylelint": "^14.14.1",
     "stylelint-config-prettier": "^9.0.3",

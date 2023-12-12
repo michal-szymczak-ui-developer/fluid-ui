@@ -10,11 +10,15 @@ html {
   transition:
     color var(--g-transition-duration) var(--g-transition-type),
     background-color var(--g-transition-duration) var(--g-transition-type);
-  scrollbar-gutter: stable both-edges;
+  scrollbar-gutter: stable;
 
   @media (prefers-reduced-motion: no-preference) {
     scroll-behavior: smooth;
   }
+}
+
+a {
+  color: var(--g-color-primary);
 }
 
 a:not([class]) {
