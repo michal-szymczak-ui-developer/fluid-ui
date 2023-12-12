@@ -3,7 +3,7 @@
 // -----------------------------------------------------------------------------
 
 .shadow {
-  box-shadow: var(--g-shadow);
+  box-shadow: var(--g-shadow) !important;
 }
 
 @each $name, $value in $g-shadows {

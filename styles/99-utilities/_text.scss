@@ -38,15 +38,15 @@ $g-font-sizes: (
 // -----------------------------------------------------------------------------
 
 .fw-regular {
-  font-weight: var(--g-fw-regular);
+  font-weight: var(--g-fw-regular) !important;
 }
 
 .fw-medium {
-  font-weight: var(--g-fw-medium);
+  font-weight: var(--g-fw-medium) !important;
 }
 
 .fw-bold {
-  font-weight: var(--g-fw-bold);
+  font-weight: var(--g-fw-bold) !important;
 }
 
 // Text truncate
@@ -56,7 +56,7 @@ $g-font-sizes: (
 
 // Text truncate
 .text-balance {
-  text-wrap: balance;
+  text-wrap: balance !important;
 }
 
 // Line clamp
